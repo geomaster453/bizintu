@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "45ae7cec6bfb826c4e8f26686d6b76aa"
+build_time: [1510094611, 556430000]
+inputs:
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/ViewController.swift": [1510094607, 0]
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/AppDelegate.swift": [1510094607, 0]

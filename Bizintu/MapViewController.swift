@@ -9,8 +9,9 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import GooglePlacePicker
 
-class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
+class MapViewController: UIViewController, GMSMapViewDelegate, GMSPlacePickerViewControllerDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: GMSMapView!
 
@@ -19,6 +20,8 @@ class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManager
     var locationManager = CLLocationManager()
     
     var firstLoad = true;
+    
+    let placesClient = GMSPlacesClient()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +50,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManager
     @IBAction func pickPlace(_ sender: UIButton) {
         let config = GMSPlacePickerConfig(viewport: nil)
         let placePicker = GMSPlacePickerViewController(config: config)
+        placePicker.delegate = self
         
         present(placePicker, animated: true, completion: nil)
     }
@@ -54,10 +58,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManager
     func placePicker(_ viewController: GMSPlacePickerViewController, didPick place: GMSPlace) {
         // Dismiss the place picker, as it cannot dismiss itself.
         viewController.dismiss(animated: true, completion: nil)
-        
-        print("Place name \(place.name)")
-        print("Place address \(place.formattedAddress)")
-        print("Place attributions \(place.attributions)")
+        performSegue(withIdentifier: "presentfeedback", sender: self)
     }
     
     func placePickerDidCancel(_ viewController: GMSPlacePickerViewController) {
@@ -94,7 +95,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManager
         infoMarker.infoWindowAnchor.y = 1
         infoMarker.map = mapView
         
-        /*var tempPlace = MeetingPlace(id: placeID, name: modifiedname, loc: location)
+        //var tempPlace = MeetingPlace(id: placeID, name: modifiedname, loc: location)
         
         placesClient.lookUpPlaceID(placeID, callback: { (place, error) -> Void in
             if let error = error {
@@ -110,13 +111,13 @@ class MapViewController: UIViewController, GMSMapViewDelegate, CLLocationManager
             
             if let address = place.formattedAddress {
                 infoMarker.snippet?.append(address + "\n")
-                tempPlace.setAddress(address: address)
+                //tempPlace.setAddress(address: address)
             }
             if let number = place.phoneNumber {
                 infoMarker.snippet?.append(number)
-                tempPlace.setPhone(num: number)
+                //tempPlace.setPhone(num: number)
             }
-        })*/
+        })
         
         mapView.selectedMarker = infoMarker
     }

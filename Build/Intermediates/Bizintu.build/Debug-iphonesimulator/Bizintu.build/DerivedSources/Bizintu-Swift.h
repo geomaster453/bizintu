@@ -173,7 +173,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import Foundation;
 @import GoogleMaps;
+@import GooglePlacePicker;
 @import CoreLocation;
 #endif
 
@@ -201,18 +203,37 @@ SWIFT_CLASS("_TtC7Bizintu11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class GMSMapView;
 @class UIImageView;
-@class CLLocationManager;
-@class CLLocation;
+@class UITextView;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC7Bizintu12FeedbackView")
+@interface FeedbackView : UIViewController <UITextViewDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified checkmark;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified comments;
+- (IBAction)satisfied:(UIButton * _Nonnull)sender;
+- (IBAction)submit:(UIButton * _Nonnull)sender;
+- (BOOL)textView:(UITextView * _Nonnull)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GMSMapView;
+@class GMSPlacePickerViewController;
+@class GMSPlace;
+@class CLLocationManager;
+@class CLLocation;
+
 SWIFT_CLASS("_TtC7Bizintu17MapViewController")
-@interface MapViewController : UIViewController <CLLocationManagerDelegate, GMSMapViewDelegate>
+@interface MapViewController : UIViewController <CLLocationManagerDelegate, GMSMapViewDelegate, GMSPlacePickerViewControllerDelegate>
 @property (nonatomic, weak) IBOutlet GMSMapView * _Null_unspecified mapView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profilePic;
 - (void)viewDidLoad;
+- (IBAction)pickPlace:(UIButton * _Nonnull)sender;
+- (void)placePicker:(GMSPlacePickerViewController * _Nonnull)viewController didPickPlace:(GMSPlace * _Nonnull)place;
+- (void)placePickerDidCancel:(GMSPlacePickerViewController * _Nonnull)viewController;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)mapView:(GMSMapView * _Nonnull)mapView didTapPOIWithPlaceID:(NSString * _Nonnull)placeID name:(NSString * _Nonnull)name location:(CLLocationCoordinate2D)location;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

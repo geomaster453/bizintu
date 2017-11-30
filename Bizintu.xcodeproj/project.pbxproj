@@ -16,6 +16,17 @@
 		D5691E221FCFEE56004520D0 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */; };
 		D5691E241FCFF235004520D0 /* daviddunkinsample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */; };
 		D5691E261FCFF343004520D0 /* BizintuLogoDrawing.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */; };
+		D5691E281FCFF890004520D0 /* signuptable.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E271FCFF88F004520D0 /* signuptable.png */; };
+		D5691E2A1FCFFB30004520D0 /* PopupScreenNew.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E291FCFFB30004520D0 /* PopupScreenNew.png */; };
+		D5691E2C1FCFFB7A004520D0 /* closebutton.ico in Resources */ = {isa = PBXBuildFile; fileRef = D5691E2B1FCFFB7A004520D0 /* closebutton.ico */; };
+		D5691E2E1FCFFC1F004520D0 /* bagelstreetcafe.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E2D1FCFFC1F004520D0 /* bagelstreetcafe.png */; };
+		D5691E301FCFFD2A004520D0 /* thumbsupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E2F1FCFFD2A004520D0 /* thumbsupicon.png */; };
+		D5691E321FCFFE6D004520D0 /* satisfiedface.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E311FCFFE6D004520D0 /* satisfiedface.png */; };
+		D5691E341FCFFE7E004520D0 /* joyface.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E331FCFFE7E004520D0 /* joyface.png */; };
+		D5691E361FCFFE89004520D0 /* needsimprovement.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E351FCFFE89004520D0 /* needsimprovement.png */; };
+		D5691E381FCFFFB4004520D0 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5691E371FCFFFB4004520D0 /* FeedbackView.swift */; };
+		D5691E3A1FD00177004520D0 /* AvailableIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E391FD00176004520D0 /* AvailableIcon.png */; };
+		D5691E3C1FD00767004520D0 /* giftcardimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E3B1FD00766004520D0 /* giftcardimage.png */; };
 		D58367C21FB26E8F0037D785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367C11FB26E8F0037D785 /* AppDelegate.swift */; };
 		D58367C41FB26E8F0037D785 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367C31FB26E8F0037D785 /* MapViewController.swift */; };
 		D58367C71FB26E8F0037D785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58367C51FB26E8F0037D785 /* Main.storyboard */; };
@@ -55,6 +66,17 @@
 		D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.otf"; path = "../../../Downloads/montserrat/Montserrat-Medium.otf"; sourceTree = "<group>"; };
 		D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daviddunkinsample.jpg; path = ../../daviddunkinsample.jpg; sourceTree = "<group>"; };
 		D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BizintuLogoDrawing.png; path = "../../Lakeside/12th Grade/Entrepreneurship/BizintuLogoDrawing.png"; sourceTree = "<group>"; };
+		D5691E271FCFF88F004520D0 /* signuptable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signuptable.png; path = ../../signuptable.png; sourceTree = "<group>"; };
+		D5691E291FCFFB30004520D0 /* PopupScreenNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PopupScreenNew.png; path = ../../PopupScreenNew.png; sourceTree = "<group>"; };
+		D5691E2B1FCFFB7A004520D0 /* closebutton.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = closebutton.ico; path = ../../closebutton.ico; sourceTree = "<group>"; };
+		D5691E2D1FCFFC1F004520D0 /* bagelstreetcafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bagelstreetcafe.png; path = ../../bagelstreetcafe.png; sourceTree = "<group>"; };
+		D5691E2F1FCFFD2A004520D0 /* thumbsupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbsupicon.png; path = ../../../../../Applications/MAMP/htdocs/thumbsupicon.png; sourceTree = "<group>"; };
+		D5691E311FCFFE6D004520D0 /* satisfiedface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = satisfiedface.png; path = ../../satisfiedface.png; sourceTree = "<group>"; };
+		D5691E331FCFFE7E004520D0 /* joyface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joyface.png; path = ../../joyface.png; sourceTree = "<group>"; };
+		D5691E351FCFFE89004520D0 /* needsimprovement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = needsimprovement.png; path = ../../needsimprovement.png; sourceTree = "<group>"; };
+		D5691E371FCFFFB4004520D0 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		D5691E391FD00176004520D0 /* AvailableIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AvailableIcon.png; path = ../../AvailableIcon.png; sourceTree = "<group>"; };
+		D5691E3B1FD00766004520D0 /* giftcardimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = giftcardimage.png; path = ../../giftcardimage.png; sourceTree = "<group>"; };
 		D58367BE1FB26E8F0037D785 /* Bizintu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bizintu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58367C11FB26E8F0037D785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58367C31FB26E8F0037D785 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -153,12 +175,23 @@
 				D58367C11FB26E8F0037D785 /* AppDelegate.swift */,
 				D58367C31FB26E8F0037D785 /* MapViewController.swift */,
 				D58367C51FB26E8F0037D785 /* Main.storyboard */,
+				D5691E371FCFFFB4004520D0 /* FeedbackView.swift */,
 				D5691E101FCFD95F004520D0 /* BizintuLogo.png */,
 				D5691E1B1FCFEBB6004520D0 /* PrizesIconRed.jpg */,
 				D5691E1F1FCFEC61004520D0 /* PrizesIconNew.png */,
 				D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */,
 				D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */,
+				D5691E391FD00176004520D0 /* AvailableIcon.png */,
+				D5691E271FCFF88F004520D0 /* signuptable.png */,
 				D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */,
+				D5691E2B1FCFFB7A004520D0 /* closebutton.ico */,
+				D5691E2F1FCFFD2A004520D0 /* thumbsupicon.png */,
+				D5691E311FCFFE6D004520D0 /* satisfiedface.png */,
+				D5691E331FCFFE7E004520D0 /* joyface.png */,
+				D5691E351FCFFE89004520D0 /* needsimprovement.png */,
+				D5691E2D1FCFFC1F004520D0 /* bagelstreetcafe.png */,
+				D5691E291FCFFB30004520D0 /* PopupScreenNew.png */,
+				D5691E3B1FD00766004520D0 /* giftcardimage.png */,
 				D5691E191FCFEAA1004520D0 /* search.png */,
 				D58367C81FB26E8F0037D785 /* Assets.xcassets */,
 				D58367CA1FB26E8F0037D785 /* LaunchScreen.storyboard */,
@@ -299,10 +332,20 @@
 				D5691E1C1FCFEBB6004520D0 /* PrizesIconRed.jpg in Resources */,
 				D5691E241FCFF235004520D0 /* daviddunkinsample.jpg in Resources */,
 				D5691E151FCFDA54004520D0 /* SIL Open Font License.txt in Resources */,
+				D5691E341FCFFE7E004520D0 /* joyface.png in Resources */,
+				D5691E301FCFFD2A004520D0 /* thumbsupicon.png in Resources */,
 				D5691E161FCFDA54004520D0 /* Pacifico.ttf in Resources */,
+				D5691E2A1FCFFB30004520D0 /* PopupScreenNew.png in Resources */,
 				D5691E1A1FCFEAA1004520D0 /* search.png in Resources */,
+				D5691E361FCFFE89004520D0 /* needsimprovement.png in Resources */,
+				D5691E321FCFFE6D004520D0 /* satisfiedface.png in Resources */,
+				D5691E2E1FCFFC1F004520D0 /* bagelstreetcafe.png in Resources */,
+				D5691E2C1FCFFB7A004520D0 /* closebutton.ico in Resources */,
+				D5691E281FCFF890004520D0 /* signuptable.png in Resources */,
 				D5691E201FCFEC61004520D0 /* PrizesIconNew.png in Resources */,
 				D58367C91FB26E8F0037D785 /* Assets.xcassets in Resources */,
+				D5691E3A1FD00177004520D0 /* AvailableIcon.png in Resources */,
+				D5691E3C1FD00767004520D0 /* giftcardimage.png in Resources */,
 				D5691E261FCFF343004520D0 /* BizintuLogoDrawing.png in Resources */,
 				D58367C71FB26E8F0037D785 /* Main.storyboard in Resources */,
 				D5691E111FCFD960004520D0 /* BizintuLogo.png in Resources */,
@@ -389,6 +432,7 @@
 			files = (
 				D58367C41FB26E8F0037D785 /* MapViewController.swift in Sources */,
 				D58367C21FB26E8F0037D785 /* AppDelegate.swift in Sources */,
+				D5691E381FCFFFB4004520D0 /* FeedbackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

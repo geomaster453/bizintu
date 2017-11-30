@@ -1,6 +1,7 @@
 version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
 options: "17f5f7844fb73fdc1372814895ddc6c1"
-build_time: [1512029865, 573610000]
+build_time: [1512033217, 159926000]
 inputs:
-  "/Users/aznhu/Desktop/Bizintu/Bizintu/MapViewController.swift": !dirty [1512029747, 0]
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/MapViewController.swift": [1512033213, 0]
   "/Users/aznhu/Desktop/Bizintu/Bizintu/AppDelegate.swift": [1511298583, 0]
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/FeedbackView.swift": [1512032983, 0]

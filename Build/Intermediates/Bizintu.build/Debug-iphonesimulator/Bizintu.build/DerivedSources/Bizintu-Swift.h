@@ -173,6 +173,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import GoogleMaps;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -199,13 +201,20 @@ SWIFT_CLASS("_TtC7Bizintu11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GMSMapView;
+@class UIImageView;
+@class CLLocationManager;
+@class CLLocation;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC7Bizintu14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC7Bizintu17MapViewController")
+@interface MapViewController : UIViewController <CLLocationManagerDelegate, GMSMapViewDelegate>
+@property (nonatomic, weak) IBOutlet GMSMapView * _Null_unspecified mapView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profilePic;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)mapView:(GMSMapView * _Nonnull)mapView didTapPOIWithPlaceID:(NSString * _Nonnull)placeID name:(NSString * _Nonnull)name location:(CLLocationCoordinate2D)location;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

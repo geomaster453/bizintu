@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5691E111FCFD960004520D0 /* BizintuLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E101FCFD95F004520D0 /* BizintuLogo.png */; };
+		D5691E151FCFDA54004520D0 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5691E131FCFDA54004520D0 /* SIL Open Font License.txt */; };
+		D5691E161FCFDA54004520D0 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5691E141FCFDA54004520D0 /* Pacifico.ttf */; };
+		D5691E1A1FCFEAA1004520D0 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E191FCFEAA1004520D0 /* search.png */; };
+		D5691E1C1FCFEBB6004520D0 /* PrizesIconRed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5691E1B1FCFEBB6004520D0 /* PrizesIconRed.jpg */; };
+		D5691E201FCFEC61004520D0 /* PrizesIconNew.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E1F1FCFEC61004520D0 /* PrizesIconNew.png */; };
+		D5691E221FCFEE56004520D0 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */; };
+		D5691E241FCFF235004520D0 /* daviddunkinsample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */; };
+		D5691E261FCFF343004520D0 /* BizintuLogoDrawing.png in Resources */ = {isa = PBXBuildFile; fileRef = D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */; };
 		D58367C21FB26E8F0037D785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367C11FB26E8F0037D785 /* AppDelegate.swift */; };
-		D58367C41FB26E8F0037D785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367C31FB26E8F0037D785 /* ViewController.swift */; };
+		D58367C41FB26E8F0037D785 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367C31FB26E8F0037D785 /* MapViewController.swift */; };
 		D58367C71FB26E8F0037D785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58367C51FB26E8F0037D785 /* Main.storyboard */; };
 		D58367C91FB26E8F0037D785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58367C81FB26E8F0037D785 /* Assets.xcassets */; };
 		D58367CC1FB26E8F0037D785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58367CA1FB26E8F0037D785 /* LaunchScreen.storyboard */; };
 		D58367D71FB26E8F0037D785 /* BizintuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367D61FB26E8F0037D785 /* BizintuTests.swift */; };
 		D58367E21FB26E8F0037D785 /* BizintuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58367E11FB26E8F0037D785 /* BizintuUITests.swift */; };
+		E082E2283E3809D3D2F082F3 /* libPods-Bizintu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C08F9757A9315DAACD3D7A /* libPods-Bizintu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		549BFF89343136718BE44144 /* Pods-Bizintu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bizintu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bizintu/Pods-Bizintu.release.xcconfig"; sourceTree = "<group>"; };
+		A1D376CBA0C5EB553F727B2F /* Pods-Bizintu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bizintu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bizintu/Pods-Bizintu.debug.xcconfig"; sourceTree = "<group>"; };
+		D5691E101FCFD95F004520D0 /* BizintuLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BizintuLogo.png; path = ../../BizintuLogo.png; sourceTree = "<group>"; };
+		D5691E131FCFDA54004520D0 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		D5691E141FCFDA54004520D0 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		D5691E191FCFEAA1004520D0 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = ../../search.png; sourceTree = "<group>"; };
+		D5691E1B1FCFEBB6004520D0 /* PrizesIconRed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PrizesIconRed.jpg; path = ../../PrizesIconRed.jpg; sourceTree = "<group>"; };
+		D5691E1F1FCFEC61004520D0 /* PrizesIconNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PrizesIconNew.png; path = ../../PrizesIconNew.png; sourceTree = "<group>"; };
+		D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.otf"; path = "../../../Downloads/montserrat/Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daviddunkinsample.jpg; path = ../../daviddunkinsample.jpg; sourceTree = "<group>"; };
+		D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BizintuLogoDrawing.png; path = "../../Lakeside/12th Grade/Entrepreneurship/BizintuLogoDrawing.png"; sourceTree = "<group>"; };
 		D58367BE1FB26E8F0037D785 /* Bizintu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bizintu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58367C11FB26E8F0037D785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D58367C31FB26E8F0037D785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D58367C31FB26E8F0037D785 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D58367C61FB26E8F0037D785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D58367C81FB26E8F0037D785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D58367CB1FB26E8F0037D785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 		D58367DD1FB26E8F0037D785 /* BizintuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizintuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58367E11FB26E8F0037D785 /* BizintuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizintuUITests.swift; sourceTree = "<group>"; };
 		D58367E31FB26E8F0037D785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C08F9757A9315DAACD3D7A /* libPods-Bizintu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bizintu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E082E2283E3809D3D2F082F3 /* libPods-Bizintu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD6B65998433E7FB3E70B503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C08F9757A9315DAACD3D7A /* libPods-Bizintu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9C84F48732A04D179D2205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1D376CBA0C5EB553F727B2F /* Pods-Bizintu.debug.xcconfig */,
+				549BFF89343136718BE44144 /* Pods-Bizintu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5691E121FCFDA54004520D0 /* pacifico */ = {
+			isa = PBXGroup;
+			children = (
+				D5691E131FCFDA54004520D0 /* SIL Open Font License.txt */,
+				D5691E141FCFDA54004520D0 /* Pacifico.ttf */,
+			);
+			name = pacifico;
+			path = ../../../Downloads/pacifico;
+			sourceTree = "<group>";
+		};
 		D58367B51FB26E8F0037D785 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				D58367D51FB26E8F0037D785 /* BizintuTests */,
 				D58367E01FB26E8F0037D785 /* BizintuUITests */,
 				D58367BF1FB26E8F0037D785 /* Products */,
+				BA9C84F48732A04D179D2205 /* Pods */,
+				AD6B65998433E7FB3E70B503 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +149,17 @@
 		D58367C01FB26E8F0037D785 /* Bizintu */ = {
 			isa = PBXGroup;
 			children = (
+				D5691E121FCFDA54004520D0 /* pacifico */,
 				D58367C11FB26E8F0037D785 /* AppDelegate.swift */,
-				D58367C31FB26E8F0037D785 /* ViewController.swift */,
+				D58367C31FB26E8F0037D785 /* MapViewController.swift */,
 				D58367C51FB26E8F0037D785 /* Main.storyboard */,
+				D5691E101FCFD95F004520D0 /* BizintuLogo.png */,
+				D5691E1B1FCFEBB6004520D0 /* PrizesIconRed.jpg */,
+				D5691E1F1FCFEC61004520D0 /* PrizesIconNew.png */,
+				D5691E251FCFF343004520D0 /* BizintuLogoDrawing.png */,
+				D5691E211FCFED67004520D0 /* Montserrat-Medium.otf */,
+				D5691E231FCFF235004520D0 /* daviddunkinsample.jpg */,
+				D5691E191FCFEAA1004520D0 /* search.png */,
 				D58367C81FB26E8F0037D785 /* Assets.xcassets */,
 				D58367CA1FB26E8F0037D785 /* LaunchScreen.storyboard */,
 				D58367CD1FB26E8F0037D785 /* Info.plist */,
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D58367E61FB26E8F0037D785 /* Build configuration list for PBXNativeTarget "Bizintu" */;
 			buildPhases = (
+				52527A69E82F529142251D4C /* [CP] Check Pods Manifest.lock */,
 				D58367BA1FB26E8F0037D785 /* Sources */,
 				D58367BB1FB26E8F0037D785 /* Frameworks */,
 				D58367BC1FB26E8F0037D785 /* Resources */,
+				AF8622CE858B36B4EC113960 /* [CP] Embed Pods Frameworks */,
+				8B6FEFD2C0813E6C2CC28B6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +296,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D58367CC1FB26E8F0037D785 /* LaunchScreen.storyboard in Resources */,
+				D5691E1C1FCFEBB6004520D0 /* PrizesIconRed.jpg in Resources */,
+				D5691E241FCFF235004520D0 /* daviddunkinsample.jpg in Resources */,
+				D5691E151FCFDA54004520D0 /* SIL Open Font License.txt in Resources */,
+				D5691E161FCFDA54004520D0 /* Pacifico.ttf in Resources */,
+				D5691E1A1FCFEAA1004520D0 /* search.png in Resources */,
+				D5691E201FCFEC61004520D0 /* PrizesIconNew.png in Resources */,
 				D58367C91FB26E8F0037D785 /* Assets.xcassets in Resources */,
+				D5691E261FCFF343004520D0 /* BizintuLogoDrawing.png in Resources */,
 				D58367C71FB26E8F0037D785 /* Main.storyboard in Resources */,
+				D5691E111FCFD960004520D0 /* BizintuLogo.png in Resources */,
+				D5691E221FCFEE56004520D0 /* Montserrat-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +326,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52527A69E82F529142251D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bizintu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6FEFD2C0813E6C2CC28B6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bizintu/Pods-Bizintu-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bizintu/Pods-Bizintu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8622CE858B36B4EC113960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bizintu/Pods-Bizintu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D58367BA1FB26E8F0037D785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58367C41FB26E8F0037D785 /* ViewController.swift in Sources */,
+				D58367C41FB26E8F0037D785 /* MapViewController.swift in Sources */,
 				D58367C21FB26E8F0037D785 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +552,7 @@
 		};
 		D58367E71FB26E8F0037D785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D376CBA0C5EB553F727B2F /* Pods-Bizintu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +567,7 @@
 		};
 		D58367E81FB26E8F0037D785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549BFF89343136718BE44144 /* Pods-Bizintu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

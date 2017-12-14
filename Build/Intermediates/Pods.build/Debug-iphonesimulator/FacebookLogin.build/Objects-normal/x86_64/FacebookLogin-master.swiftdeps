@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "138cf08aa0930d1bee7f6ba78a7a9022"
+build_time: [1513236160, 475557000]
+inputs:
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [1513236117, 0]
+  "/Users/aznhu/Desktop/Bizintu/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [1513236117, 0]

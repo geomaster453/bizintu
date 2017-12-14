@@ -10,12 +10,18 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 import GooglePlacePicker
+import Firebase
 
 class MapViewController: UIViewController, GMSMapViewDelegate, GMSPlacePickerViewControllerDelegate, CLLocationManagerDelegate {
+    
+    var ref: DatabaseReference!
+    var storageRef: StorageReference!
 
     @IBOutlet weak var mapView: GMSMapView!
 
     @IBOutlet weak var profilePic: UIImageView!
+    
+    @IBOutlet weak var username: UIButton!
     
     var locationManager = CLLocationManager()
     
@@ -28,6 +34,26 @@ class MapViewController: UIViewController, GMSMapViewDelegate, GMSPlacePickerVie
         
         self.profilePic.layer.cornerRadius = self.profilePic.frame.width / 2;
         self.profilePic.clipsToBounds = true
+        ref = Database.database().reference()
+        storageRef = Storage.storage().reference()
+        let picRef = storageRef.child("ProfilePics")
+        print((Auth.auth().currentUser?.uid))
+        
+        ref.child("userdisplays/" + (Auth.auth().currentUser?.uid)!).observe(.value, with: { (snapshot) in
+            if snapshot.hasChild("userPhoto"){
+                let filePath = (Auth.auth().currentUser?.uid)! + "photo.jpg"
+                picRef.child(filePath).getData(maxSize: 10*1024*1024, completion: { (data, error) in
+                    
+                    let userPhoto = UIImage(data: data!)
+                    self.profilePic.image = userPhoto
+                })
+            }
+            if snapshot.hasChild("firstname") {
+                let firstnameSnapshot = snapshot.childSnapshot(forPath: "firstname")
+                
+                self.username.setTitle(firstnameSnapshot.value as! String, for: .normal)
+            }
+        })
         
         // Do any additional setup after loading the view, typically from a nib.
         mapView.settings.myLocationButton = true

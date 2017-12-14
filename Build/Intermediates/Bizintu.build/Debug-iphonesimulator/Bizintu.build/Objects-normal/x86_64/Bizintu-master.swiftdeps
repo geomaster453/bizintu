@@ -1,7 +1,9 @@
-version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
-options: "17f5f7844fb73fdc1372814895ddc6c1"
-build_time: [1512033217, 159926000]
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a17c693316489d669d8a9b6f93d384eb"
+build_time: [1513237174, 909216000]
 inputs:
   "/Users/aznhu/Desktop/Bizintu/Bizintu/MapViewController.swift": [1512033213, 0]
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/RegisterMenuController.swift": [1513237173, 0]
+  "/Users/aznhu/Desktop/Bizintu/Bizintu/IntroView.swift": [1513235606, 0]
   "/Users/aznhu/Desktop/Bizintu/Bizintu/AppDelegate.swift": [1511298583, 0]
   "/Users/aznhu/Desktop/Bizintu/Bizintu/FeedbackView.swift": [1512032983, 0]
